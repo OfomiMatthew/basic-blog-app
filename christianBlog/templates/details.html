@@ -1,0 +1,9 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Details{% endblock title %}Posts
+
+  {% block content  %}
+<h3>{{blog.title}}</h3>
+<p>{{blog.published_date}}</p>
+<p>{{blog.content}}</p>
+{% endblock content  %}
